@@ -1,0 +1,120 @@
+/* Styles for mobile phones */
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  /* Header Start */
+
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    height: 86px;
+    gap: 15px;
+  }
+
+  /* Header Left */
+
+  .header-left {
+    justify-content: center;
+  }
+
+  .header-left-logo {
+    width: auto;
+  }
+
+  .header-left-address p {
+    width: 80%;
+  }
+
+  .header-left-address p:first-child {
+    font-size: 1rem;
+  }
+
+  .header-left-address p:last-child {
+    font-size: 0.7rem;
+  }
+
+  .header-left-address p i {
+    font-size: 0.85rem;
+  }
+
+  /* Header Search */
+
+  .header-search {
+    margin: 0 10px;
+  }
+
+  /* Header Right */
+
+  .header-right {
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+  }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  /* Header Start */
+  header {
+    flex-wrap: wrap;
+    gap: 15x;
+    padding: 10px 15px;
+    height: auto;
+  }
+
+  /* Header Left */
+  .header-left {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .header-left-logo {
+    width: auto;
+    max-width: 150px;
+    padding: 15px;
+  }
+
+  .header-left-address {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .header-left-address p {
+    width: 80%;
+    font-size: 0.95rem;
+  }
+
+  .header-left-address p:first-child {
+    font-size: 1.05rem;
+  }
+
+  .header-left-address p:last-child {
+    font-size: 0.85rem;
+  }
+
+  /* Header Search */
+  .header-search {
+    margin: 0px 10px;
+    max-width: 100%;
+  }
+
+  /* Header Right */
+  .header-right {
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .header-right-login button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .header-right-cart button {
+    font-size: 0.85rem;
+    padding: 12px;
+  }
+}
+

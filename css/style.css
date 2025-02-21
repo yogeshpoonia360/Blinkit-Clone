@@ -1,0 +1,137 @@
+/* Gernal styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+/* Header Start */
+
+header {
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #cccccc4d;
+}
+
+/* Header Left */
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-left-logo {
+  height: 86px;
+  width: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #cccccc4d;
+}
+
+.header-left-address {
+  height: 86px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left-address p {
+  text-align: left;
+  width: 69%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.header-left-address p:first-child {
+  font-size: 1.12rem;
+  font-weight: bold;
+}
+
+.header-left-address p:last-child {
+  font-size: 0.8rem;
+}
+
+.header-left-address p i {
+  font-size: 1rem;
+  margin: 2px 0px 0px 4px;
+}
+
+/* Header Search */
+
+.header-search {
+  height: 46px;
+  display: flex;
+  flex-grow: 1;
+  background-color: #f8f8f8;
+  border: 1px solid #f4f4f4;
+  border-radius: 15px;
+}
+
+.header-search button {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.header-search input {
+  flex-grow: 1;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+/* Header Right */
+
+.header-right {
+  height: 86px;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.header-right-login button {
+  font-size: 1.1rem;
+  color: black;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header-right-cart button i {
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 5px;
+}
+
+.header-right-cart button {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: white;
+  padding: 15px;
+  background-color: rgb(12, 131, 31);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Header: End */
