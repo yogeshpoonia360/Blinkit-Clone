@@ -49,6 +49,10 @@
     width: 100%;
     bottom: 0px;
   }
+
+  /* Header: End */
+
+  /* Main Start */
 }
 
 /* Styles for tablets */
@@ -116,5 +120,8 @@
     font-size: 0.85rem;
     padding: 12px;
   }
-}
 
+  /* Header: End */
+
+  /* Main Start */
+}
