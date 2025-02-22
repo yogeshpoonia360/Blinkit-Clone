@@ -137,3 +137,37 @@ header {
 /* Header: End */
 
 /* Main Start */
+
+/* Banner Section */
+
+.banner-section {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.banner-section img {
+  width: 100%;
+}
+
+/* Order Banner Section */
+
+.order-banner {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.order-banner-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.order-banner-items:nth-child(2) {
+  margin: 20px 0px;
+}
+
+.order-banner-items img {
+  max-width: 100%;
+}

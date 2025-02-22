@@ -53,6 +53,18 @@
   /* Header: End */
 
   /* Main Start */
+
+  /* Banner Section */
+
+  .banner-section {
+    display: none;
+  }
+
+  /* Order Banner Section */
+
+  .order-banner {
+    display: none;
+  }
 }
 
 /* Styles for tablets */
@@ -124,4 +136,5 @@
   /* Header: End */
 
   /* Main Start */
+
 }
