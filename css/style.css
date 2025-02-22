@@ -171,3 +171,20 @@ header {
 .order-banner-items img {
   max-width: 100%;
 }
+
+/* Category Section */
+
+.category-section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.category-items {
+  flex-basis: 10%;
+}
+
+.category-items img {
+  width: 100%;
+}
