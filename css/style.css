@@ -106,7 +106,7 @@ header {
 
 .header-right-login button {
   font-size: 1.1rem;
-  color: black;
+  color: rgb(54, 54, 54);
   padding: 15px;
   background-color: transparent;
   border: none;
