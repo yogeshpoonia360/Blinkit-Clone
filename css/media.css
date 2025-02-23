@@ -5,9 +5,7 @@
   header {
     flex-direction: column;
     align-items: stretch;
-    position: static;
-    height: 86px;
-    gap: 15px;
+    height: 150px;
   }
 
   /* Header Left */
@@ -39,7 +37,7 @@
   /* Header Search */
 
   .header-search {
-    margin: 0 10px;
+    margin: 15px 10px;
   }
 
   /* Header Right */
@@ -66,7 +64,7 @@
 
   .order-banner {
     flex-direction: column;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
 
   .order-banner-items:nth-child(2) {
@@ -88,7 +86,6 @@
     gap: 15x;
     padding: 10px 15px;
     height: auto;
-    position: static;
   }
 
   /* Header Left */
