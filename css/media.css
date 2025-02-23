@@ -126,6 +126,41 @@
     padding: 5px 10px;
     font-size: 0.75rem;
   }
+
+  /* Footer */
+
+  footer {
+    padding-top: 0px;
+  }
+
+  .footer-mid-row1 {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .categories-link ul li {
+    list-style: none;
+    margin: 2px 0px;
+  }
+
+  .categories-link ul li a {
+    font-size: 0.70rem;
+  }
+
+  .footer-mid-row2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .footer-mid-row2-line2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-mid-row3 {
+    padding: 10px;
+  }
 }
 
 /* Styles for tablets */
@@ -249,5 +284,30 @@
   .product-button button {
     padding: 5px 10px;
     font-size: 0.75rem;
+  }
+  /* Footer */
+
+  footer {
+    padding-top: 0px;
+  }
+
+  .footer-mid-row1 {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .footer-mid-row2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .footer-mid-row2-line2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-mid-row3 {
+    padding: 10px;
   }
 }
