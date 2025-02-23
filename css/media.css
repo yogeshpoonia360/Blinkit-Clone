@@ -86,6 +86,10 @@
     padding: 10px 10px;
   }
 
+  .product-heading p {
+    font-size: 1.2rem;
+  }
+
   .product-row {
     display: flex;
     flex-wrap: wrap;
@@ -204,6 +208,10 @@
   /* Product Section */
   .product-section {
     padding: 10px 10px;
+  }
+
+  .product-heading p {
+    font-size: 1.3rem;
   }
 
   .product-row {
