@@ -15,7 +15,11 @@
   }
 
   .header-left-logo {
-    width: auto;
+    height: 75px;
+  }
+
+  .header-left-address {
+    height: 75px;
   }
 
   .header-left-address p {
